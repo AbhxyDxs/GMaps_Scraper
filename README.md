@@ -4,7 +4,7 @@ Python-based web scraper that extracts details from Google Maps using Selenium a
 
 ## Features
 
- - Automates search for tthe given purpose.
+ - Automates search for the given purpose.
 
  - Extracts details such as name, phone number, address, and website.
 
@@ -61,9 +61,9 @@ python ScraperFinal.py
 ```
 ## Customization
 
- - Modify the purpose variable in the script to search for different businesses or locations.
+ - Modify the `purpose` variable in the script to search for different businesses or locations.
 
- - Change the limit parameter in scrape_travel_companies(limit=10) to adjust the number of results scraped.
+ - Change the `limit` parameter in `scrape_travel_companies(limit=10)` to adjust the number of results scraped.
 
 ## Output
 
@@ -73,7 +73,7 @@ The script will generate a CSV file containing the extracted business details.
 
  - Ensure ChromeDriver version matches your Chrome browser version.
 
- - If scraping fails, increase time.sleep() values to handle slower internet speeds.
+ - If scraping fails, increase `time.sleep()` values to handle slower internet speeds.
 
  - Run the script as an administrator if permission errors occur.
 
