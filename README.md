@@ -57,7 +57,7 @@ cd GMaps_Scraper
 ```
 Run the script using Python:
 ```sh
-python ScraperFinal.py
+python Scraper.py
 ```
 ## Customization
 
