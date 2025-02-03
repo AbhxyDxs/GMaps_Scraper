@@ -16,7 +16,7 @@ def is_valid_website(website):
     return website.strip().endswith(valid_extensions)
 
 #Main function
-def scrape_travel_companies(limit=None):
+def gmaps_scraper(limit=None):
     #Selenium WebDriver set-up
     service = Service("chromedriver.exe")  # Place chromedriver.exe in code folder else replace with system path of chromedriver
     driver = webdriver.Chrome(service=service)
@@ -107,5 +107,5 @@ def scrape_travel_companies(limit=None):
     print("Scraping completed. Data saved to "+purpose+".csv.")
 
 #Specify a limit or leave it as None to scrape all available results
-# scrape_travel_companies(limit=10)
-scrape_travel_companies()
+# gmaps_scraper(limit=10)
+gmaps_scraper()
