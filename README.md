@@ -63,7 +63,7 @@ python Scraper.py
 
  - Modify the `purpose` variable in the script to search for different businesses or locations.
 
- - Change the `limit` parameter in `scrape_travel_companies(limit=10)` to adjust the number of results scraped.
+ - Change the `limit` parameter in `gmaps_scraper(limit=10)` to adjust the number of results scraped.
 
 ## Output
 
